@@ -1,6 +1,6 @@
 project_name        = "galveeno"
 aws_region          = "us-east-1"
-cluster_version     = "1.30"
+cluster_version     = "1.35"
 vpc_cidr            = "10.0.0.0/16"
 availability_zones  = ["us-east-1a", "us-east-1b"]
 
