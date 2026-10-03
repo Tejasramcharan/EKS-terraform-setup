@@ -43,7 +43,7 @@ variable "public_subnet_cidrs" {
 variable "node_instance_types" {
   description = "EC2 instance types for the managed node group"
   type        = list(string)
-  default     = ["t3.small"]
+  default     = ["m7i‑flex.large"]
 }
 
 variable "node_desired_size" {
